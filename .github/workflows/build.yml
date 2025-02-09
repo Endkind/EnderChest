@@ -35,7 +35,7 @@ jobs:
       - name: Run Tests
         run: ./gradlew clean test
         env:
-          USERNAME: ${{ github.actor }}
+          USERNAME: endkind
           TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
   build:
@@ -66,7 +66,7 @@ jobs:
       - name: Build Plugin
         run: ./gradlew build
         env:
-          USERNAME: ${{ github.actor }}
+          USERNAME: endkind
           TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
       - name: Upload Build Artifact
