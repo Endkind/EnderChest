@@ -1,0 +1,6 @@
+version: 1
+
+prefix:
+  name: 'EnderChest'
+  color: '#6400d4'
+  useArrow: true
